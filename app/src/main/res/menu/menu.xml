@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Reset Logs"
+        android:id="@+id/menuResetLogs"
+        app:showAsAction="never|withText"
+        ></item>
+
+    <item
+        android:title="Change Theme"
+        android:id="@+id/menuChangeTheme"
+        app:showAsAction="never|withText"></item>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    style="@style/SCREEN"
+    android:paddingRight="16dp" >
+    <EditText
+        android:id="@+id/txtCharId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="8"
+        android:hint="Enter CharacterID"
+        style="@style/TEXT"
+        android:layout_toLeftOf="@id/btnSubmitCharId"/>
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnSubmitCharId"
+        android:enabled="false"
+        style="@style/BUTTON"
+        android:padding="3dp"
+        android:text="Submit" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCharId"
+        android:id="@+id/relCharInfo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TEXT"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:id="@+id/txtCharName"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCharDataCenter"
+            android:padding="5dp"
+
+            style="@style/TEXT"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@id/txtCharName"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCharServer"
+            style="@style/TEXT"
+            android:padding="5dp"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@id/txtCharDataCenter">
+        </TextView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgChar"
+        android:layout_below="@id/relCharInfo">
+    </ImageView>
+</RelativeLayout>

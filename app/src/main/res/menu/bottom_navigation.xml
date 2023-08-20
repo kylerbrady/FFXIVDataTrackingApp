@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        ></item>
+
+    <item
+        android:id="@+id/nav_blue"
+        android:icon="@drawable/domino_mask_24px"
+        android:title="Blue Spells"></item>
+
+
+    <item
+        android:id="@+id/nav_mounts"
+        android:icon="@drawable/baseline_add_reaction_24"
+        android:title="Mounts"></item>
+
+
+    <item
+        android:id="@+id/nav_achievements"
+        android:icon="@drawable/stars_48px"
+        android:title="Achievements"></item>
+</menu>
